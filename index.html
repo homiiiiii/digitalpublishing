@@ -2,16 +2,52 @@
 <head>
 	<title>자바스크립트 실습</title>
 	<style>
-		input{font-size: 0.8em;}
-		button{font-size: 0.8em;}
+		input{font-size: 1em;}
+		button{font-size: 1em;}
 		body{font-size: 1em;}
 	</style>
 </head>
 <body>
+	<article>
 	<h1>Sound Visualization</h1>
-	<h2>1. 정치 뉴스의 특징되는 사건에 대한 캐릭터 무빙</h2>
-	 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=wum5EBBPnmQ" frameborder="0" allowfullscreen></iframe>
-	
+	<h2>1. 정치인에 대한 캐릭터 무빙</h2>
+	 <iframe width="854" height="480" src="https://www.youtube.com/embed/wum5EBBPnmQ" frameborder="0" allowfullscreen></iframe>
+	 <p>Sound = 위의 동영상 소리  
+	 	<br>Sound visualization 
+	 = 소리에 따라 밑에 있는 트럼프 일러스트가 손가락질을 위 아래로 행동 또는 소리에 따라 입을 오므렸다 크게 벌렸다로 반응</p>
+	 <img width="400"  src="https://cdn.dribbble.com/users/1210339/screenshots/2909967/trump_dribbble_1x.jpg">
+	 <img width="848"  src="http://www.matthewrozsa.com/wp-content/uploads/2015/10/Trump-848x500.jpg">
+	 <p>정치 풍자 시리즈로 
+	 <br>미국-트럼프 등
+	 <br>한국-박근혜, 최순실 등
+	 <br>을 중점적으로 발전
+	 <br><a href="http://www.georgeandjonathan.com/#3" target="_blank">http://www.georgeandjonathan.com/#3</a></p>
+	</article>
+	<article>
+	<h2>2. 정보의 바다를 바다소리로 구현</h2>
+	 <iframe width="854" height="480" src="https://www.youtube.com/embed/QX4j_zHAlw8" frameborder="0" allowfullscreen></iframe>
+	 <img width="848"  src="http://media.istockphoto.com/photos/concept-of-data-pool-an-ocean-of-information-picture-id542295296">
+	 <p>Sound = 위의 바다 소리
+	 <br>Sound visualization = 정보의 바다(글자가 바다 모양처럼 웨이브타고 있는 모습)
+	 </p>
+	 <p>새 소리도 들리는 데 새 모형도 표현하고 싶습니다.....</p>
+	</article>
+	<article>
+	<h3>3. 목소리와 함께 듣는 멜로디</h3>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/Hd6F-__sDI4" frameborder="0" allowfullscreen></iframe>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/VQfKIkv5o3w" frameborder="0" allowfullscreen></iframe>
+	<p>사람들의 목소리를 담은 음성또는 그 음을 연주한 악기소리와 함께 둘 다 표현하면 재밌을 것같다.</p>
+	<p>Sound = 소리또는 정치인 목소리와 멜로디
+	<br>Sound visualization = 말하고 있는 캐릭터가 악기를 들고 연주하는 모션
+	</p>
+	<p>한 쪽에 소리 재생 표시 2개가 있어 하나는 음성으로 하나는 음성과 멜로디를 함께 들을 수가 있다.</p>
+	</article>
+	<article>
+	<h2>4. 뮤직비디오 만들기-제일 하고 싶음...</h2>
+	<p>하지만 제일 어려울 것 같습니다. 3D를 활용해서 음악에 맞춰 뮤직비디오 만들기~~3D 도형은 육면체로 통일해서 표현하면 멋진 영상을 만들어 보고 싶습니다.
+	<br><a href="http://www.dennis.video/" target="_blank">http://www.dennis.video/</a></p>
+	</article>
+	<article>
 	<h1 id="display">당신의 표준체중을 알아보세요~</h1>
 	<input type="text" id="weight" placeholder="당신의 체중을 알려주세요.">kg
 	<input type="text" id="height" placeholder="당신의 키를 알려주세요.">cm
@@ -37,4 +73,23 @@
 	}
 
 	</script>
+	</article>
+</body>
+	<style>
+	*{font-family: 'Spoqa Han Sans', 'Sans-serif'; }
+	body,header,nav, ul{margin:0 auto; padding:0;}
+	body{background:#fffdf3; height: auto; width:70%;}
+	article{padding-top: 100px; left: 0px;
+            width:calc(100% - 2em);
+            margin:1em 1em;
+            margin-top:0;
+            float:left;}
+
+    article p{ font-size: 1em; text-decoration: none; line-height: 1.7; margin-bottom: 3em; margin-top: 1em; word-break: keep-all;}
+
+    article iframe {width:100%;}
+
+    article img{width:50%;}
+
+	</style>
 </body>
